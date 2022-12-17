@@ -1,0 +1,593 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-image: url("/Images/canvabg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+header .logo img {
+    width: 300px;
+    height: 100px;
+    margin-left: 60px;
+}
+
+header .menu nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .menu nav a {
+    text-decoration: none;
+    color: black;
+    /* font-size: 20px; */
+    text-transform: uppercase;
+    /* font-weight: 700; */
+    box-sizing: border-box;
+}
+
+header .menu nav a:hover {
+    color: blue;
+    /* background-color: blue; */
+    border-radius: 3px;
+    text-decoration: underline;
+
+
+}
+
+header .headerbtn button {
+    margin-right: 60px;
+    padding: 5px 20px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+header .headerbtn button:hover {
+    background-color: green;
+    padding: 6px 19px;
+    font-size: 17px;
+}
+
+/* header .help{
+    background-color: cadetblue;
+    position: relative;
+    display: none;
+} */
+
+main {
+    display: flex;
+
+}
+
+main .left-section {
+    margin-left: 100px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+main .left-section h1 {
+    padding: 20px 0px 5px 0px;
+}
+
+main .left-section button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    background-color: blue;
+}
+
+main .left-section button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main .left-section button:hover {
+    background-color: green;
+
+}
+
+main .right-section figure img {
+    width: 600px;
+    height: 500px;
+    border-radius: 100px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+/* About Us Page css start from here. */
+
+.about {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    background-color: lightblue;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+
+.about-text {
+    width: 700px;
+    margin-left: 60px;
+    text-align: justify;
+    border: 1px solid grey;
+    padding: 50px 50px;
+
+}
+
+.about-text h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about-text p {
+    margin: 20px;
+    /* padding: 20px; */
+    justify-content: space-evenly;
+}
+
+.about .about-img figure img {
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.about button {
+    margin-left: 245px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.about button:hover {
+    background-color: green;
+}
+
+.about button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Services section start here */
+h3 {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(244, 245, 244);
+
+
+}
+
+.services {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(244, 245, 244);
+    padding: 60px;
+}
+
+.ser {
+    width: 30%;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.ser:hover {
+    position: relative;
+    bottom: 30px;
+}
+
+.services img {
+    height: 400px;
+    width: 415px;
+    border-radius: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.services h3 {
+    text-align: center;
+    margin: 10px 10px;
+    background-color: rgb(244, 245, 244);
+}
+
+.services p {
+    text-align: center;
+}
+
+.ser button {
+    text-align: center;
+    margin: 10px 0px 10px 180px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.ser button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ser button:hover {
+    background-color: green;
+}
+
+/* Quote section start here  */
+.quote {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-size: 1522px 50vh;
+    background-color: lightblue;
+}
+
+.quote q {
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+}
+/* for popup */
+
+/* Extra */
+/* 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+
+.mentors{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(50deg, #7f0ac3, #d21599, #ed1e1e);
+}
+
+.card{
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.mentors h1{
+    color: #fff;
+}
+.card:hover{
+    height: 440px;
+}
+
+.profile{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 0px 15x 50px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.profile img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card:hover .profile{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.card .ment{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card .ment .details{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(150px);
+}
+
+.card:hover .ment .details{
+    transform: translateY(0px);
+}
+
+.card .ment .details h2{
+    font-size: 20px;
+    line-height: 21px;
+
+}
+
+.card .ment .details h5{
+    font-size: 13px;
+    color: rgb(138, 129, 118);
+}
+
+.icons{
+    color: #ffd700;
+}
+.card .ment .details .social{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.card .ment .details .social h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card .ment .details .btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .ment .details .btn button{
+    padding: 8px 25px;
+    background: linear-gradient(90deg, #7f0ac3, #d21599, #ed1e1e);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    body {
+      flex-direction: column;
+    }
+
+    .card{
+        margin: 2rem;
+    }
+
+  }
+
+@media (max-width: 300px) {
+    body {
+        flex-direction: column;
+      }
+  
+      .card{
+        height: 200px;
+        width: 200px;
+          margin: 2rem;
+      }
+
+      .card .main .details{
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+        transition: 0.5s;
+        transform: translateY(150px);
+    }
+
+      .card .main .details .social{
+        flex-direction: column;
+        
+    }
+
+    .card .main .details .btn button{
+        font-size: 13px;
+    }
+    
+
+} 
+
+/* footer start here  */
+
+footer {
+    /* background-image: url('/Images/footer-img.png'); */
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    padding: 50px 90px;
+    background-color: rgb(14, 109, 164);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+/* footer .f-ser p {
+    margin-left: 20px;
+}
+
+footer .f-doc p {
+    margin-left: 20px;
+} */
+
+/* footer .f-hel p{
+    margin-left: 20px;
+} */
+
+
+footer .f-ser ul li {
+    text-align: left;
+    list-style: none;
+
+}
+
+/* footer .f-doc {
+    margin-left: 80px;
+} */
+
+footer .f-doc ul li {
+    text-align: left;
+    list-style: none;
+
+}
+
+footer .f-hel ul li {
+    text-align: left;
+    list-style: none;
+
+}
+
+/* footer .f-dev p {
+    margin-left: 20px;
+} */
+
+footer .f-dev ul li {
+    text-align: left;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header .logo img {
+        width: 300px;
+        height: 100px;
+        margin-left: 0px;
+    }
+
+    header .menu nav a {
+        margin-bottom: 10px;
+    }
+
+    header .headerbtn button{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    header .menu nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    main .left-section {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    main .right-section figure img {
+        margin: auto;
+        width: 400px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        margin: auto;
+        height: auto;
+    }
+
+    .about-text {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .about .about-img figure img {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .services {
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px;
+    }
+
+    .ser {
+        width: 80%;
+    }
+
+    .ser img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .quote {
+        width: auto;
+        height: 35vh;
+    }
+
+    .mentors{
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .f-content {
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 300px) {
+    header {
+        flex-direction: column;
+    }
+}
